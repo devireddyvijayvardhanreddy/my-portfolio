@@ -31,10 +31,23 @@ export default function Home() {
               Passionate about building scalable applications with modern technologies.
               Specializing in full-stack development, DevOps, and cloud infrastructure.
             </p>
-            <div className={styles.ctaButtons}>
-              <button className={`${styles.btn} ${styles.btnPrimary}`}>Download Resume</button>
-              <button className={`${styles.btn} ${styles.btnSecondary}`}>Get in Touch</button>
-            </div>
+           <div className={styles.ctaButtons}>
+  <button
+    className={`${styles.btn} ${styles.btnPrimary}`}
+    onClick={() =>
+      window.open(
+        "https://drive.google.com/file/d/1Ti02BM4xRQ1_DLuTtWrDR1chY_DKzGp1/view?usp=drive_link",
+        "_blank",
+        "noopener,noreferrer"
+      )
+    }
+  >
+    Download Resume
+  </button>
+
+
+</div>
+
           </div>
         </section>
 
