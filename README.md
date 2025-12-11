@@ -4,6 +4,7 @@
 
 Welcome to my professional portfolio! This is a Next.js-based responsive portfolio showcasing my skills, experience, and projects.
 
+
 ### Tech Stack
 - **Frontend**: React.js, Next.js, Tailwind CSS
 - **Backend**: Node.js, Express.js
@@ -24,7 +25,7 @@ Welcome to my professional portfolio! This is a Next.js-based responsive portfol
   - Worked on front-end and back-end solutions
 
 ### Education
-- **CDAC Bangalore** - PG in Advanced Computing
+- **CDAC Bangalore** - PG in Advanced Computing (2025)
 - **VJIT** - BTech in Information Technology (2020-2024)
 
 ### Connect
