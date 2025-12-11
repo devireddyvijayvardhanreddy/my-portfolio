@@ -121,6 +121,33 @@ export default function Home() {
   </div>
 </div>
 
+        <div className={styles.projectCard}>
+  <h3>Codify Insight</h3>
+  <p className={styles.projectTech}>Full Stack • Data Analytics • SQL</p>
+  <p>
+    Dashboard for tracking and analyzing student performance metrics with
+    visualizations and predictive insights.
+  </p>
+  <div className={styles.projectLinks}>
+    <a
+      href="https://github.com/devireddyvijayvardhanreddy/codify-insight"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View code
+    </a>
+    <a
+      href="https://coding-profile-manager.onrender.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Live demo
+    </a>
+  </div>
+</div>
+
+        
+
          <div className={styles.projectCard}>
   <h3>Agricultural Prediction System</h3>
   <p className={styles.projectTech}>Machine Learning • Python • Web</p>
@@ -148,16 +175,7 @@ export default function Home() {
   </div>
 </div>
 
-            <div className={styles.projectCard}>
-              <h3>Student Performance Evaluation</h3>
-              <p className={styles.projectTech}>Full Stack • Data Analytics • SQL</p>
-              <p>Dashboard for tracking and analyzing student performance metrics with
-              visualizations and predictive insights.</p>
-              <div className={styles.projectLinks}>
-                
-              </div>
-            </div>
-          </div>
+            
         </section>
 
         {/* Contact Section */}
