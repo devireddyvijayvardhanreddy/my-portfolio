@@ -95,25 +95,59 @@ export default function Home() {
         {/* Projects Section */}
         <section id="projects" className={styles.section}>
           <h2>Featured Projects</h2>
-          <div className={styles.projectsGrid}>
-            <div className={styles.projectCard}>
-              <h3>Online Course Management System</h3>
-              <p className={styles.projectTech}>React.js • Node.js • MySQL</p>
-              <p>A comprehensive platform for managing online courses with user authentication,
-              course creation, and progress tracking.</p>
-              <div className={styles.projectLinks}>
-                <a href="#">view project</a>
-              </div>
-            </div>
-            <div className={styles.projectCard}>
-              <h3>Agricultural Prediction System</h3>
-              <p className={styles.projectTech}>Machine Learning • Python • Web</p>
-              <p>ML-based system for predicting crop yields and providing recommendations
-              to farmers for optimal agricultural practices.</p>
-              <div className={styles.projectLinks}>
-                <a href="#">view project</a>
-              </div>
-            </div>
+         <div className={styles.projectCard}>
+  <h3>Online Course Management System</h3>
+  <p className={styles.projectTech}>React.js • Node.js • MySQL</p>
+  <p>
+    Full‑stack course management platform with course creation, student enrollment,
+    assignment tracking, and performance analytics. 
+  </p>
+  <div className={styles.projectLinks}>
+    <a
+      href="https://github.com/devireddyvijayvardhanreddy/course-management-system"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View code
+    </a>
+    {/* If you deploy it (e.g., from Lovable), add a live link too */}
+    {/* <a
+      href="https://your-live-course-app-url"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Live demo
+    </a> */}
+  </div>
+</div>
+
+         <div className={styles.projectCard}>
+  <h3>Agricultural Prediction System</h3>
+  <p className={styles.projectTech}>Machine Learning • Python • Web</p>
+  <p>
+    Intelligent crop recommendation and yield prediction system that
+    uses soil, weather, and regional data to suggest suitable crops and
+    estimate expected yield.
+  </p>
+  <div className={styles.projectLinks}>
+    <a
+      href="https://github.com/devireddyvijayvardhanreddy/agronomy-prediction-for-kisan"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View code
+    </a>
+    {/* If you later build a UI and deploy it, add a live demo link here */}
+    {/* <a
+      href="https://your-live-agro-app-url"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Live demo
+    </a> */}
+  </div>
+</div>
+
             <div className={styles.projectCard}>
               <h3>Student Performance Evaluation</h3>
               <p className={styles.projectTech}>Full Stack • Data Analytics • SQL</p>
