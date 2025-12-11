@@ -137,14 +137,7 @@ export default function Home() {
     >
       View code
     </a>
-    {/* If you later build a UI and deploy it, add a live demo link here */}
-    {/* <a
-      href="https://your-live-agro-app-url"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Live demo
-    </a> */}
+ 
   </div>
 </div>
 
