@@ -110,14 +110,14 @@ export default function Home() {
     >
       View code
     </a>
-    {/* If you deploy it (e.g., from Lovable), add a live link too */}
-    {/* <a
+    { If you deploy it (e.g., from Lovable), add a live link too }
+    { <a
       href="https://your-live-course-app-url"
       target="_blank"
       rel="noopener noreferrer"
     >
       Live demo
-    </a> */}
+    </a> }
   </div>
 </div>
 
