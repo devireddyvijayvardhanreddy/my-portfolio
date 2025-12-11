@@ -102,7 +102,7 @@ export default function Home() {
               <p>A comprehensive platform for managing online courses with user authentication,
               course creation, and progress tracking.</p>
               <div className={styles.projectLinks}>
-                <a href="#">https://github.com/devireddyvijayvardhanreddy/course-management-system</a>
+                <a href="https://github.com/devireddyvijayvardhanreddy/course-management-system">view project</a>
               </div>
             </div>
             <div className={styles.projectCard}>
@@ -111,7 +111,7 @@ export default function Home() {
               <p>ML-based system for predicting crop yields and providing recommendations
               to farmers for optimal agricultural practices.</p>
               <div className={styles.projectLinks}>
-                <a href="#">https://github.com/devireddyvijayvardhanreddy/agronomy-prediction-for-kisan</a>
+                <a href="https://github.com/devireddyvijayvardhanreddy/agronomy-prediction-for-kisan">view project</a>
               </div>
             </div>
             <div className={styles.projectCard}>
